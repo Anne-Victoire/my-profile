@@ -1,0 +1,150 @@
+/* colors and fonts */
+
+body {
+	background-color: #F3EFF5;
+	color: #252C2D;
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2 {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	color: #09814A;
+	font-size: 32px ;
+}
+
+h2 {
+	color: #B50353;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #4059AD;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #252C2D;
+}
+
+ul {
+ margin:0;
+ padding:0;
+ text-align: center;
+ list-style:none;                
+}
+
+ul  li {
+  padding: 2px 5px;               
+}
+
+
+/* Custom design with class*/
+
+.container { 
+width: 700px;
+margin:40px auto;
+ }
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+   .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+   .container {
+    width: 300px;
+  }
+}
+
+ .card-white{
+background-color: white;
+padding: 40px;
+box-shadow:0px 10px 30px rgb(0, 0, 0, 0.1);
+border-radius: 10px;
+margin: 20px 0px;
+text-align: center;
+ }
+
+ .btn-blue {
+background-color: #4059AD;
+color: white;
+padding: 7px 10px;
+border-radius: 10px;
+ }
+
+.btn-blue:hover {
+background-color: #252C2D;
+color: white;
+ }
+
+.list-inline {
+list-style: none
+padding-left: 10px;
+}
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+.list-inline i {
+font-size: 40px;
+Color: #4059AD;
+}
+.list-inline i:hover {
+color: #09814A;
+}
+
+ .img-circle{
+border-radius: 50%;
+ }
+
+ .img-rectangle {
+  border-radius: 10px;
+ }
+
+@media (max-width: 960px) {
+  .img-rectangle  {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+   .img-rectangle  {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+   .img-rectangle {
+    width: 200px;
+  }
+}
+
+@media (max-width: 960px) {
+  .video-ytb  {
+    width: 560px;
+  }
+}
+@media (max-width: 720px) {
+   .video-ytb {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+   .video-ytb {
+    width: 200px;
+  }
+
+
+/* Design adjustments*/
+#introduction p {
+margin-bottom: 40px;
+}
